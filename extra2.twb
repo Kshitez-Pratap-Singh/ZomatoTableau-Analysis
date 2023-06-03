@@ -1,0 +1,1765 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='zomato_restaurants_in_India (State and City Combined-Filtered Data)' inline='true' name='federated.06ligcq17uf9r216b8woa0cy6u4x' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='State and City Combined-Filtered Data' name='excel-direct.04qzsle1negdub169pt281oybgo9'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/kshit/OneDrive/Desktop/Break Project/State and City Combined-Filtered Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.04qzsle1negdub169pt281oybgo9' name='zomato_restaurants_in_India' table='[zomato_restaurants_in_India$]' type='table'>
+          <columns gridOrigin='A1:AJ10001:no:A1:AJ10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='integer' name='res_id' ordinal='1' />
+            <column datatype='string' name='name' ordinal='2' />
+            <column datatype='string' name='establishment' ordinal='3' />
+            <column datatype='string' name='url' ordinal='4' />
+            <column datatype='string' name='address' ordinal='5' />
+            <column datatype='string' name='city' ordinal='6' />
+            <column datatype='integer' name='city_id' ordinal='7' />
+            <column datatype='string' name='locality' ordinal='8' />
+            <column datatype='real' name='latitude' ordinal='9' />
+            <column datatype='real' name='longitude' ordinal='10' />
+            <column datatype='string' name='zipcode' ordinal='11' />
+            <column datatype='integer' name='country_id' ordinal='12' />
+            <column datatype='string' name='locality_verbose' ordinal='13' />
+            <column datatype='string' name='cuisines' ordinal='14' />
+            <column datatype='string' name='timings' ordinal='15' />
+            <column datatype='integer' name='average_cost_for_two' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='integer' name='price_range' ordinal='18' />
+            <column datatype='string' name='currency' ordinal='19' />
+            <column datatype='string' name='highlights' ordinal='20' />
+            <column datatype='real' name='aggregate_rating' ordinal='21' />
+            <column datatype='string' name='rating range' ordinal='22' />
+            <column datatype='string' name='rating_text' ordinal='23' />
+            <column datatype='integer' name='votes' ordinal='24' />
+            <column datatype='integer' name='photo_count' ordinal='25' />
+            <column datatype='integer' name='opentable_support' ordinal='26' />
+            <column datatype='integer' name='delivery' ordinal='27' />
+            <column datatype='integer' name='takeaway' ordinal='28' />
+            <column datatype='string' name='s' ordinal='29' />
+            <column datatype='real' name='F31' ordinal='30' />
+            <column datatype='real' name='F32' ordinal='31' />
+            <column datatype='string' name='F33' ordinal='32' />
+            <column datatype='string' name='F34' ordinal='33' />
+            <column datatype='real' name='F35' ordinal='34' />
+            <column datatype='string' name='F36' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.04qzsle1negdub169pt281oybgo9' name='zomato_restaurants_in_India' table='[zomato_restaurants_in_India$]' type='table'>
+          <columns gridOrigin='A1:AJ10001:no:A1:AJ10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='integer' name='res_id' ordinal='1' />
+            <column datatype='string' name='name' ordinal='2' />
+            <column datatype='string' name='establishment' ordinal='3' />
+            <column datatype='string' name='url' ordinal='4' />
+            <column datatype='string' name='address' ordinal='5' />
+            <column datatype='string' name='city' ordinal='6' />
+            <column datatype='integer' name='city_id' ordinal='7' />
+            <column datatype='string' name='locality' ordinal='8' />
+            <column datatype='real' name='latitude' ordinal='9' />
+            <column datatype='real' name='longitude' ordinal='10' />
+            <column datatype='string' name='zipcode' ordinal='11' />
+            <column datatype='integer' name='country_id' ordinal='12' />
+            <column datatype='string' name='locality_verbose' ordinal='13' />
+            <column datatype='string' name='cuisines' ordinal='14' />
+            <column datatype='string' name='timings' ordinal='15' />
+            <column datatype='integer' name='average_cost_for_two' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='integer' name='price_range' ordinal='18' />
+            <column datatype='string' name='currency' ordinal='19' />
+            <column datatype='string' name='highlights' ordinal='20' />
+            <column datatype='real' name='aggregate_rating' ordinal='21' />
+            <column datatype='string' name='rating range' ordinal='22' />
+            <column datatype='string' name='rating_text' ordinal='23' />
+            <column datatype='integer' name='votes' ordinal='24' />
+            <column datatype='integer' name='photo_count' ordinal='25' />
+            <column datatype='integer' name='opentable_support' ordinal='26' />
+            <column datatype='integer' name='delivery' ordinal='27' />
+            <column datatype='integer' name='takeaway' ordinal='28' />
+            <column datatype='string' name='s' ordinal='29' />
+            <column datatype='real' name='F31' ordinal='30' />
+            <column datatype='real' name='F32' ordinal='31' />
+            <column datatype='string' name='F33' ordinal='32' />
+            <column datatype='string' name='F34' ordinal='33' />
+            <column datatype='real' name='F35' ordinal='34' />
+            <column datatype='string' name='F36' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AJ10001:no:A1:AJ10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>res_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[res_id]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>res_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>establishment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[establishment]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>establishment</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[city_id]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>city_id</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>locality</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[locality]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>locality</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zipcode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[zipcode]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>zipcode</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[country_id]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>country_id</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>locality_verbose</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[locality_verbose]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>locality_verbose</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cuisines</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cuisines]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>cuisines</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timings</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[timings]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>timings</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>average_cost_for_two</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[average_cost_for_two]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>average_cost_for_two</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price_range</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[price_range]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>price_range</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>currency</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[currency]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>currency</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>highlights</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[highlights]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>highlights</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aggregate_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[aggregate_rating]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>aggregate_rating</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating range</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[rating range]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>rating range</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating_text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[rating_text]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>rating_text</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>votes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[votes]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>votes</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>photo_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[photo_count]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>photo_count</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opentable_support</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opentable_support]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>opentable_support</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>delivery</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[delivery]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>delivery</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>takeaway</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[takeaway]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>takeaway</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>s</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[s]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>s</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F31</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F31]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>F31</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F32</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F32]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>F32</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F33</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F33]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>F33</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F34</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F34]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>F34</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F35</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F35]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>F35</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F36</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F36]</local-name>
+            <parent-name>[zomato_restaurants_in_India]</parent-name>
+            <remote-alias>F36</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Delivery status' datatype='string' name='[Calculation_866942939548905476]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='if [delivery]==-1 Then &quot;No Home Delivery&quot;&#13;&#10;ELSEIF  [delivery]==1 Then &quot;Home Delivery Available&quot;&#13;&#10;ELSE &quot;Not Recorded&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='zomato_restaurants_in_India' datatype='table' name='[__tableau_internal_object_id__].[zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161]' role='measure' type='quantitative' />
+      <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+      <column caption='Aggregate Rating' datatype='real' name='[aggregate_rating]' role='measure' type='quantitative' />
+      <column caption='Average Cost For Two' datatype='integer' name='[average_cost_for_two]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='City Id' datatype='integer' name='[city_id]' role='dimension' type='ordinal' />
+      <column caption='Country Id' datatype='integer' name='[country_id]' role='dimension' type='ordinal' />
+      <column caption='Cuisines' datatype='string' name='[cuisines]' role='dimension' type='nominal' />
+      <column caption='Currency' datatype='string' name='[currency]' role='dimension' type='nominal' />
+      <column caption='Delivery' datatype='integer' name='[delivery]' role='measure' type='quantitative' />
+      <column caption='Establishment' datatype='string' name='[establishment]' role='dimension' type='nominal' />
+      <column caption='Highlights' datatype='string' name='[highlights]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Locality' datatype='string' name='[locality]' role='dimension' type='nominal' />
+      <column caption='Locality Verbose' datatype='string' name='[locality_verbose]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Opentable Support' datatype='integer' name='[opentable_support]' role='measure' type='quantitative' />
+      <column caption='Photo Count' datatype='integer' name='[photo_count]' role='measure' type='quantitative' />
+      <column caption='Price Range' datatype='integer' name='[price_range]' role='measure' type='quantitative' />
+      <column caption='Rating Range' datatype='string' name='[rating range]' role='dimension' type='nominal' />
+      <column caption='Rating Text' datatype='string' name='[rating_text]' role='dimension' type='nominal' />
+      <column caption='Res Id' datatype='integer' name='[res_id]' role='dimension' type='ordinal' />
+      <column caption='S' datatype='string' name='[s]' role='dimension' type='nominal' />
+      <column caption='Takeaway' datatype='integer' name='[takeaway]' role='measure' type='quantitative' />
+      <column caption='Timings' datatype='string' name='[timings]' role='dimension' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Votes' datatype='integer' name='[votes]' role='measure' type='quantitative' />
+      <column caption='Zipcode' datatype='string' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column-instance column='[delivery]' derivation='None' name='[none:delivery:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[rating range]' derivation='None' name='[none:rating range:nk]' pivot='key' type='nominal' />
+      <column-instance column='[rating_text]' derivation='None' name='[none:rating_text:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:rating_text:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Very Good&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Not rated&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Good&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Excellent&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Poor&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Average&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:rating range:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;4.0-4.4&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1-2.4&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;2.5-3.4&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;4.5-5&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;0&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3.5-3.9&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:delivery:ok]' type='palette'>
+            <map to='#e15759'>
+              <bucket>-1</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>0</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='zomato_restaurants_in_India' id='zomato!restaurants!in!India_3042EF6F79D3453E978A10CBEDBDE161'>
+            <properties context=''>
+              <relation connection='excel-direct.04qzsle1negdub169pt281oybgo9' name='zomato_restaurants_in_India' table='[zomato_restaurants_in_India$]' type='table'>
+                <columns gridOrigin='A1:AJ10001:no:A1:AJ10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='integer' name='res_id' ordinal='1' />
+                  <column datatype='string' name='name' ordinal='2' />
+                  <column datatype='string' name='establishment' ordinal='3' />
+                  <column datatype='string' name='url' ordinal='4' />
+                  <column datatype='string' name='address' ordinal='5' />
+                  <column datatype='string' name='city' ordinal='6' />
+                  <column datatype='integer' name='city_id' ordinal='7' />
+                  <column datatype='string' name='locality' ordinal='8' />
+                  <column datatype='real' name='latitude' ordinal='9' />
+                  <column datatype='real' name='longitude' ordinal='10' />
+                  <column datatype='string' name='zipcode' ordinal='11' />
+                  <column datatype='integer' name='country_id' ordinal='12' />
+                  <column datatype='string' name='locality_verbose' ordinal='13' />
+                  <column datatype='string' name='cuisines' ordinal='14' />
+                  <column datatype='string' name='timings' ordinal='15' />
+                  <column datatype='integer' name='average_cost_for_two' ordinal='16' />
+                  <column datatype='string' name='F18' ordinal='17' />
+                  <column datatype='integer' name='price_range' ordinal='18' />
+                  <column datatype='string' name='currency' ordinal='19' />
+                  <column datatype='string' name='highlights' ordinal='20' />
+                  <column datatype='real' name='aggregate_rating' ordinal='21' />
+                  <column datatype='string' name='rating range' ordinal='22' />
+                  <column datatype='string' name='rating_text' ordinal='23' />
+                  <column datatype='integer' name='votes' ordinal='24' />
+                  <column datatype='integer' name='photo_count' ordinal='25' />
+                  <column datatype='integer' name='opentable_support' ordinal='26' />
+                  <column datatype='integer' name='delivery' ordinal='27' />
+                  <column datatype='integer' name='takeaway' ordinal='28' />
+                  <column datatype='string' name='s' ordinal='29' />
+                  <column datatype='real' name='F31' ordinal='30' />
+                  <column datatype='real' name='F32' ordinal='31' />
+                  <column datatype='string' name='F33' ordinal='32' />
+                  <column datatype='string' name='F34' ordinal='33' />
+                  <column datatype='real' name='F35' ordinal='34' />
+                  <column datatype='string' name='F36' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Aggregate Voting each Establishment'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Times New Roman'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='zomato_restaurants_in_India (State and City Combined-Filtered Data)' name='federated.06ligcq17uf9r216b8woa0cy6u4x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ligcq17uf9r216b8woa0cy6u4x'>
+            <column caption='1' datatype='integer' name='[Calculation_866942939537952769]' role='measure' type='quantitative' user:unnamed='Sheet 2 (2)'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='1' datatype='integer' name='[Calculation_866942939538112515]' role='measure' type='quantitative' user:unnamed='Sheet 2 (2)'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='Aggregate Rating' datatype='real' name='[aggregate_rating]' role='measure' type='quantitative' />
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Establishment' datatype='string' name='[establishment]' role='dimension' type='nominal' />
+            <column caption='Locality' datatype='string' name='[locality]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_866942939537952769]' derivation='Min' name='[min:Calculation_866942939537952769:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_866942939538112515]' derivation='Min' name='[min:Calculation_866942939538112515:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[establishment]' derivation='None' name='[none:establishment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[locality]' derivation='None' name='[none:locality:nk]' pivot='key' type='nominal' />
+            <column-instance column='[rating range]' derivation='None' name='[none:rating range:nk]' pivot='key' type='nominal' />
+            <column-instance column='[aggregate_rating]' derivation='Sum' name='[pcto:sum:aggregate_rating:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Rating Range' datatype='string' name='[rating range]' role='dimension' type='nominal' />
+            <column-instance column='[aggregate_rating]' derivation='Sum' name='[sum:aggregate_rating:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:city:nk]' filter-group='3'>
+            <groupfilter function='member' level='[none:city:nk]' member='&quot;New Delhi&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]'>
+            <groupfilter function='member' level='[none:establishment:nk]' member='&quot;[&apos;Bar&apos;]&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:locality:nk]'>
+            <groupfilter function='level-members' level='[none:locality:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;4.0-4.4&quot;</bucket>
+              <bucket>&quot;3.5-3.9&quot;</bucket>
+              <bucket>&quot;4.5-5&quot;</bucket>
+              <bucket>&quot;2.5-3.4&quot;</bucket>
+              <bucket>&quot;1-2.4&quot;</bucket>
+              <bucket>&quot;0&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:city:nk]</column>
+            <column>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:locality:nk]</column>
+            <column>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.06ligcq17uf9r216b8woa0cy6u4x].[min:Calculation_866942939538112515:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.06ligcq17uf9r216b8woa0cy6u4x].[min:Calculation_866942939537952769:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.06ligcq17uf9r216b8woa0cy6u4x].[min:Calculation_866942939538112515:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-width' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' scope='rows' value='0' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' scope='rows' value='0' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <customized-label>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]>]]></run>
+                <run><![CDATA[
+<[federated.06ligcq17uf9r216b8woa0cy6u4x].[sum:aggregate_rating:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.06ligcq17uf9r216b8woa0cy6u4x].[min:Calculation_866942939537952769:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]' />
+              <wedge-size column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[sum:aggregate_rating:qk]' />
+              <size column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[sum:aggregate_rating:qk]' />
+              <text column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]' />
+              <text column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[pcto:sum:aggregate_rating:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run><![CDATA[<[federated.06ligcq17uf9r216b8woa0cy6u4x].[pcto:sum:aggregate_rating:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='2.7734806537628174' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.06ligcq17uf9r216b8woa0cy6u4x].[min:Calculation_866942939538112515:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#333333' fontname='Times New Roman' fontsize='12'>&lt;</run>
+                <run bold='true' fontcolor='#333333' fontname='Times New Roman' fontsize='12'>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]</run>
+                <run bold='true' fontcolor='#333333' fontname='Times New Roman' fontsize='12'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='2.2430939674377441' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.06ligcq17uf9r216b8woa0cy6u4x].[min:Calculation_866942939537952769:qk] + [federated.06ligcq17uf9r216b8woa0cy6u4x].[min:Calculation_866942939538112515:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7E3B2164-B6A6-4E3D-A128-6453B1248C21}' />
+    </worksheet>
+    <worksheet name='Aggregate Voting each Establishment.'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Times New Roman'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='zomato_restaurants_in_India (State and City Combined-Filtered Data)' name='federated.06ligcq17uf9r216b8woa0cy6u4x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ligcq17uf9r216b8woa0cy6u4x'>
+            <column caption='Aggregate Rating' datatype='real' name='[aggregate_rating]' role='measure' type='quantitative' />
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Establishment' datatype='string' name='[establishment]' role='dimension' type='nominal' />
+            <column caption='Locality' datatype='string' name='[locality]' role='dimension' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[establishment]' derivation='None' name='[none:establishment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[locality]' derivation='None' name='[none:locality:nk]' pivot='key' type='nominal' />
+            <column-instance column='[rating range]' derivation='None' name='[none:rating range:nk]' pivot='key' type='nominal' />
+            <column caption='Rating Range' datatype='string' name='[rating range]' role='dimension' type='nominal' />
+            <column-instance column='[aggregate_rating]' derivation='Sum' name='[sum:aggregate_rating:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:city:nk]' filter-group='3'>
+            <groupfilter function='member' level='[none:city:nk]' member='&quot;New Delhi&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]'>
+            <groupfilter function='member' level='[none:establishment:nk]' member='&quot;[&apos;Bar&apos;]&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:locality:nk]'>
+            <groupfilter function='level-members' level='[none:locality:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;4.0-4.4&quot;</bucket>
+              <bucket>&quot;3.5-3.9&quot;</bucket>
+              <bucket>&quot;4.5-5&quot;</bucket>
+              <bucket>&quot;2.5-3.4&quot;</bucket>
+              <bucket>&quot;1-2.4&quot;</bucket>
+              <bucket>&quot;0&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:city:nk]</column>
+            <column>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:locality:nk]</column>
+            <column>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.06ligcq17uf9r216b8woa0cy6u4x].[sum:aggregate_rating:qk]</rows>
+        <cols>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]</cols>
+      </table>
+      <simple-id uuid='{C45A3C80-85BC-4E5E-9EDD-35636B05D89B}' />
+    </worksheet>
+    <worksheet name='Restaurant'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Times New Roman'>Restaurant Service</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='zomato_restaurants_in_India (State and City Combined-Filtered Data)' name='federated.06ligcq17uf9r216b8woa0cy6u4x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ligcq17uf9r216b8woa0cy6u4x'>
+            <column caption='Aggregate Rating' datatype='real' name='[aggregate_rating]' role='measure' type='quantitative' />
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[aggregate_rating]' derivation='Count' name='[cnt:aggregate_rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[rating_text]' derivation='None' name='[none:rating_text:nk]' pivot='key' type='nominal' />
+            <column-instance column='[aggregate_rating]' derivation='Count' name='[pcto:cnt:aggregate_rating:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Rating Text' datatype='string' name='[rating_text]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:city:nk]' filter-group='3'>
+            <groupfilter function='member' level='[none:city:nk]' member='&quot;New Delhi&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating_text:nk]'>
+            <groupfilter function='level-members' level='[none:rating_text:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:city:nk]</column>
+            <column>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating_text:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating_text:nk]' />
+              <wedge-size column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[cnt:aggregate_rating:qk]' />
+              <lod column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[pcto:cnt:aggregate_rating:qk]' />
+              <text column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating_text:nk]' />
+              <text column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[cnt:aggregate_rating:qk]' />
+              <text column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[pcto:cnt:aggregate_rating:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{70398600-9A22-4F06-A05E-4169D0D53974}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#1b1b1b' fontname='Times New Roman'>Delivery status Across Delhi</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='zomato_restaurants_in_India (State and City Combined-Filtered Data)' name='federated.06ligcq17uf9r216b8woa0cy6u4x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ligcq17uf9r216b8woa0cy6u4x'>
+            <column caption='Delivery status' datatype='string' name='[Calculation_866942939548905476]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if [delivery]==-1 Then &quot;No Home Delivery&quot;&#13;&#10;ELSEIF  [delivery]==1 Then &quot;Home Delivery Available&quot;&#13;&#10;ELSE &quot;Not Recorded&quot;&#13;&#10;END' />
+            </column>
+            <column-instance column='[delivery]' derivation='Count' name='[cnt:delivery:qk]' pivot='key' type='quantitative' />
+            <column caption='Delivery' datatype='integer' name='[delivery]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_866942939548905476]' derivation='None' name='[none:Calculation_866942939548905476:nk]' pivot='key' type='nominal' />
+            <column-instance column='[delivery]' derivation='None' name='[none:delivery:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[delivery]' derivation='Count' name='[pcto:cnt:delivery:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:delivery:ok]' />
+              <wedge-size column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[cnt:delivery:qk]' />
+              <text column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[pcto:cnt:delivery:qk]' />
+              <text column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:Calculation_866942939548905476:nk]' />
+              <text column='[federated.06ligcq17uf9r216b8woa0cy6u4x].[cnt:delivery:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontname='Times New Roman' fontsize='15'><![CDATA[<[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:Calculation_866942939548905476:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count of Delivery:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.06ligcq17uf9r216b8woa0cy6u4x].[cnt:delivery:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Total ):&#9;                </run>
+                <run bold='true'><![CDATA[<[federated.06ligcq17uf9r216b8woa0cy6u4x].[pcto:cnt:delivery:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontalignment='0' fontname='Times New Roman' fontsize='11'><![CDATA[<[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:Calculation_866942939548905476:nk]>]]></run>
+                <run><![CDATA[
+<[federated.06ligcq17uf9r216b8woa0cy6u4x].[pcto:cnt:delivery:qk]>
+<[federated.06ligcq17uf9r216b8woa0cy6u4x].[cnt:delivery:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F89305C0-E62B-4372-A34B-5B8139337F84}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Restaurant'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating_text:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating_text:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:city:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:locality:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating_text:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F1AAAE21-70D9-4ADA-9E29-AEE32CF29F6C}' />
+    </window>
+    <window class='worksheet' name='Aggregate Voting each Establishment.'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:locality:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:aggregate_rating:qk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:cuisines:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:locality:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:name:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DABB7D6F-CD9F-41FB-8EFD-A7FA2FD4DCFC}' />
+    </window>
+    <window class='worksheet' name='Aggregate Voting each Establishment'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:locality:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]' type='color' />
+            <card pane-specification-id='1' param='[federated.06ligcq17uf9r216b8woa0cy6u4x].[sum:aggregate_rating:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:aggregate_rating:qk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:cuisines:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:establishment:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:locality:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:name:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:rating range:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{48EFF7BA-F770-4210-9825-C512BC47F811}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:delivery:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:Calculation_866942939548905476:nk]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:delivery:ok]</field>
+            <field>[federated.06ligcq17uf9r216b8woa0cy6u4x].[none:timings:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4F9AA462-F2B7-4BB3-9520-86BB5B355419}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Aggregate Voting each Establishment' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Aggregate Voting each Establishment.' width='192'>
+      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
+      5/8AiKX3wIc7t/8AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Restaurant' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAV9klEQVR4nO3dV3AcV37v8W/3RKQZDPIgECASxSgmUZRIiqQoybbW8t67slfect27ZbvW
+      rnV6cPnVj35x2WVX+eG6rsu+dV9cttb2anet3dXKSpREigkARRIEIzI5yGnydPfxAwSJENIA
+      nOEA0//Pmzg93Qeq/k2f0ydpSimFEDal57oAQuSSBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNia
+      BEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA
+      2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNia
+      M9cFECITpgev8+anA3z3f5xCc3pJxqNEZybRi8oocEEkEiMZmcZdWoPPbXF/YJS2tiYJgMgP
+      Hd2DNBQbTEyMMDwWJRUb5/InHXir62gIuHj6uVN0f95J3xQ81ViGw4JPBu9IFUhsfcpKkjAs
+      ttWVMzBuMXj9HA3t+6ipDXLwwD4q65qoLdUYnYHiAheameBe/zCFPj+a7BIp7OZOdyc3e0d4
+      6eWXJQDC3qQKJPJSIjpL39BD4uEpPvrwA8ZmogzcucGt3uFFx0kARF4KhUa5fbcHzeHm4P5d
+      dF65xP2BGcbv3yHxyHESAJGXGptb8Th0XC4nV6/ewOdz4vGUUOzxYDxynARA5CHFtSvnGRoY
+      4t79fmIpk6KSWlzaODNOL4WPHCmNYGFr8gQQtiY9wSJvhCdDfHa5iwdTKf73G69x53oHvQ9n
+      OPTMPq5e6iRsQUFqlqLqVlyayeHDByQAIn8Ul9Wwu6WORm8dAD337lLgKeTBRJxAkZNIREPT
+      NAbv30HXE7iLSqUKJPKJ4u7QJC21ZYyMjFJfXYOBRmxmgsm4RTwe48TJF2jbtQevwyKZTEgj
+      WGwOpmURTxgkUiamZeFWcUocCXC40BwecBeh6Y41zqJQCjRNY+G2tiyFrmtYloWm62gLRyqF
+      pmkSAPHkWEoRjiYZGpulLzTN4OgMI5MRRqcjzEYSpAwLw7JQSnHCc5XfKfkZaDroTjSnB62g
+      DK2kBj3QhB5owlG5A71sO3h8aJq2dgGWIW0AkTVKKRIpk57+ca7cfkh33xhDY7PEk8aa3zWd
+      BpjJr86VDKOiEzBxB7Pv468OdBejl23HWf8MjqbjOIL7wOFJOxDyBBAZl0gZdN0J8fHnA1y5
+      /ZBoPLXuc5z0dvK9krfXf3GvH+f2k7h2/DKOhmfRnJ5VD5cngMgIpRQPJ8L84tI9PurqZ3Iu
+      lpuCxGcwbv4Y4+aP0YprcO3+n7h2fxPdXwcsfSrIE0A8FqUUvQ+n+Y+zN7nQPUzSMDNy3g0/
+      AZbj9OJsfwX34d9FL2teVD2SJ4DYsOGxWf75v65z/sYgprWJf0eNOEb3jzFuvYPp+x2KX/0N
+      nFVVgARAbMBcNMG/f3ST/zx3m5Rp5bo4aUvNlBI+9ylz712k5Buv4vu11yQAIn2WUly8Ocw/
+      vt3J6FQk18VZF4VObGj+V1+lUsy+9SOin12QAIj0ROJJ/untTt7r6GUrthpTs1WYM4sbwUYo
+      JAEQa7s7NMlfv3meB+NzuS7KhijlIP7Fr//XSQDEipRSvN/Ry//9SUdanVebVWq2BnOF7EoA
+      xLJM0+JfP7jBDz7oxtqKdZ4vKOUkNlS+4ucSALGEYVr8/Y8u8+7l+7kuymNLTtVghVf+XAIg
+      FkkaJn/7g8/49Npgrovy2JRyEx8uB1Z+gsl8APGllGHyd/9+MS9ufoDkRBArunr1TQIggPnx
+      +P/wnx2cvdqf66JkhFIeYkOlax4nARAopXjzg27euXgv10XJmMRYEJVYu/EuAbA5pRRnr/bz
+      5gc3cl2UjLGsAuLD/rSOlQDY3MDIDP/nR5exNvNgtnVKjAZRyfT+HgmAjcUSKf76zfPEElu3
+      k+vrLLOIxIOStI+XANiUUor///Or9Idmcl2UjIqHgqhU+k8zCYBNdd0N8YtL+dPoBbCMYhKh
+      onV9RwJgQ/GkwT/8pGNzT2JZJwXEHwbBWN/fJAGwGaUUb33Sw/AWHdm5EivlIxEqXPvAr5EA
+      2MzYTJS3Pu7JdTEySgHxB0HYwBNNAmAjSin+7cPuvHrrA2AlSkmOetf9vYnqSgnAZtLR0QFA
+      Z2fn6sdd+Jj/eu89QhPLD3NUZoqeO7eX/PvDiTAfdvY9djk3EwXE1vnrr4Ch5ibeevmUjAbd
+      TPxagru9tzFdPv7f3/8dc84ydga9BKobSeGBZJijzx0kHNGpqyhibnSQT87ewVtUTLEVZSpi
+      0NhYR2h8gqJABU997fw/+vQWiVRmli3ZLMx4OakxV9rHK6Bn7y4+PPQ0FlIF2lSadu/mnbff
+      Z1dzBS5fNcePHCBQ08Dhw4exIsN4fZVomptYfIJCfyFDd4bwV9bj1k0szU2w3Mf49BytbS04
+      vrY04ORsjLNd+THQbYEC4sM1q412XsTSdS49f4QPDu5jYS0LeQJsIg5XCW985zcoKPTz6kvH
+      iVpuyv1NYBlE51Lse74F0Dh9+kXuDzzg2KtnmAwN4vHvxKNijM2lOFIdoLd/mIN7dy0694dd
+      fUQT61+icDMzY5WkxtdaMXqe4Xbx0clj9NQFF/27rAxnA5ZS/OHf/HRLTWpfa2U4pTTCd3dh
+      TK4dgFhREe+8dJLhwNIBcvIE2ALGHg4xE0kQrG9gdjyEr6Ka6dGHxJKKxu2NuByr12R7+se3
+      1M2fDiNaldbNP1VRzs9PH2eyaPk+AgnAVqBpDN35nMnREWYdhaS67/H0zmauXb1C9bZtuFa5
+      D5Qib2Z4LVBKJz5UueZxD7bV886Jo0RdKzeSpRG8BVRWV+MormJHUzWTDwZwur0Eg1VU1jRQ
+      4l79V9AwTS71DD+hkj4ZqXAVxvTKt64C7u5s5yenjq1684M8AbaEqVA/tc07SRkTFBV6cTgd
+      9PbcZNehQ2t+d3B0lpEttozhahQO4oMr//pbuk7X4f18tmtHWi+HJABbQCDYQgCAMr6xrW1d
+      3+288zAbRcqZ1HQ15tzyu78YLiefnniO6w11aZ9PApDHlIIbfWO5LkbGKBzEhiqW/SxRUMC7
+      Z16gv6JsXeeUAGxSw3e76A5pNJcr+kbmeP7YMQpcFu/98Ce0nXiJyftdDIRm2bOrmWu3HvDs
+      vibw1VHj/2pMTDJlcH94Knd/RIYlp2qxlqnNzQZK+dmZFxgvXt9cAJBG8KZkxOfoG43iUimu
+      dnxOKhYhHEsCDtpbm0kmDKZmwzSVwWdX+9CNGJ90fM71zg7MRyq+YzNRpiPxnP0dmaQsF/Gh
+      wJJ/H6kL8sNfPrOhmx8kAJtSeGaKmelxrlzrxldeQUtDFeMTk6RSBtFolHAkys6dO3k4HuX5
+      F56nIlBEqT9AocMg9ch+FYMjM1tyKfPlJKeCWNGv/lsBfW0t/PjFE4Q97g2fV6pAm1Bp9TZe
+      /ZV6jodjeJ0Wd/tHaK/1MxeJMqs7cMRncfqKaT1wjMZKP2XewxS6NAbH5vA+8lZ0YHQ2d39E
+      BinLTXw4wMKgH6VpXN+/l0/27cLa4P7ACyQAm5Wm4yuZf6zvemp+lYOAB5555siXhyw0B30l
+      859vbyhedIqRqVVWhd1CEhO1WLH5m990OPjs+FG6tm/LyLklAHlsq21jtBxleYkP+QFF0uvh
+      /dMnuFe9di9wuiQAeWw6vPUbwPGx+UWuIr4Sfn7mJCF/+mv+pEMCkMfmoslcF+GxKKWRGitg
+      orqKn54+zqx39V3fN0ICkKcsy9rS2xrB/IjPvqpmfnH8KHFHeuP+10teg+Ypw1Rs7akeTgbU
+      Pt59/kjWbv75q4i8ZFrWlu4DGClp4z92BEjo2f2NlidAntJ1jcd8RZ5T/uAIySdwd0oA8pTT
+      oaNt0QQ4dAj6+rFW290uQyQAecqh63jdW7OGW1MSxalPkzKyP5JVApDHSgo2PkYml9rKx4kY
+      CRKp7M9lkADksYCvINdF2JD28hEihkkiOULai/5skAQgj1X4t2YAdlSMYGlu4qlZNBVd+wuP
+      QQKQx4LlmR028CRUFhsE3BOkcKCwiBvZbQhLAPJYfaUv10VYt/aKEADRL5YwdZDd8UwSgDzW
+      WO1H32KvQneUj6BpMJeaX8YxkQpl9XoSgDxWUVqIvzjzA8iyRdegJTCCQidqzI9jime5ISwB
+      yGMel5OWuvWtkpBLpQUpqosmUZoT9cWtGUuOo5O9RX0lAHluT1PmJo9kW1v5OA7NxFD6l8uX
+      KxRJYyRr15QA5Ln9bTW5LkLa2ivmb/SEtXjDl0Qye+0ACUCeq6/0UVNWvPaBOaYB7WXzN3rM
+      NDAeGcoaT4XIVjtAApDnnA4HR3bW5roYawoUJqkqml/Ea/4J8NUNn0xNgUpk5boSgDynaXB8
+      b2ZWUMim7YFp3Pr8FE5LW/zmyrBSmOZkVq4rAbCB9obyTd8ptlD/B0iqpbdltvoDJAA2oGka
+      rzzTnOtirGpH+VcBiJpL6/vzI0Mz3w6QANjEqf1NFHnT3070SSrxKmqLvgrAQi/wo2LJSbQs
+      9AdIAGzCX+zl1IGmXBdjWdsDEzj1r1awiC2zlbFpJbPSDpAA2Mhrz7fjWW1DsRxZGP+zwNKW
+      n8iTjf4ACYCN1JQVc+bQ5msLtJcvvrETyzSCAeJZmCEmAbARTdP49ZM7KdxEbQGvy6LRv3ju
+      73KNYIBYYhSdZepHj0ECYDNlvgJef2FnrovxpeayGVz64k6uueTySzqaysAwJzJ6fQmAzWia
+      xmvH2mmo2hz9Ao++/lwQt1aew5DpifISABvyuJz8/q8dwrnGDvNPwqMdYAvMFRrBsNAQzlx/
+      QO7/D4ic2LO9ilePrm/L1UwrdJk0lCxd+2e5nuAF8dQ4qMy1AyQANqVpGr/10l6aa5duPPek
+      1JdGKHQu3cQjalrLHD0vZcZRajpjZZAA2JjX4+TP3nguZ2+FdpSHll2/dDa5eo9vJvsDJAA2
+      V1tRwh9/6wgO/clPnl+u/q80J0lr9SpOIoPzAyQANqdpGs/truc7Z/Y80et6nNDoW6YBzNrL
+      OcaSY2gZ6g+QAAg0TeP1k7v41efbn9g16/yzFLuWrvq2Ui/wo1JmFMuayUg5JAACmN9P4Ld/
+      ZT9nDm1/ItdrLx9F05ZWY1ZrAD8qU/MDJADiS06Hzve/eZhT+5uyfq3lOsAAZlfoBf66TDWE
+      JQBiEZfTwR+/foRXj7Zm7RqaBq1lywcgqdIbrRpLjqCR3tNiNRIAsYTTofO9Xz3E/3plX1aW
+      VmwojVLknFv2M5P0XskaZhzLevz+AAmAWJaua7x+cid/+sZzGZ9JNl//X/6zdBrB8MWCWanR
+      xy6LBECsSNM0Tuzbxl9870Uaq/0ZO2/7CvV/gKiR/uvNTPQHSADEmrYHA/zl91/m1aNtj10l
+      cuqKlsDKAZhdZj7wSjIxME4CINLidTv5vdcO8ufffYG6io1vvFFZkiTgmVrx8xTpT9mMGxE0
+      tfENNKqLSyQAIn2apnGwPchf/cErfPv07g3tQtn+tfm/X2ek2QhesJH+AI/DySutO/jDo8dl
+      p3ixfoVeF7/18l5eOrSdf3n/Bmev9mOk2YG10vv/BQlrfb/JiWQItzu9HmyHrnOotp4XW9oI
+      FBQCSADExlWXFfMnrx/h9ZM7+eHZHj651k88uXIj1qFDS2D1X+zIOhrBMN8f4MP6cj+B5Xgc
+      Tp4O1nJyeyvlhYWLNhCXAIjHomka9ZU+/uhbz/DGi7t5v6OX9zt6GZlaOs6/oihGecHqY3hm
+      U+n1BC9IGnMoFQFtabukvLCQw3XbOFhXj99bwHI1LwmAyAhN06gKFPGbZ/bwrZM7udE7xtmr
+      /VzuecBsdH7Se2vZBA5t5V94hYahHLCOkZ7z/QEjuN3zASh2e9hZVc3+YC1NgXKc+upVKgmA
+      yDi308GBthoOtNVgmBa3BsbpujtCo3sSzVGEMpc+HQAUOqa2vgAUe0po8Bewt66dtvJKtvlL
+      0de46R+lKaWyuxW3EF9QSoEVw4wPY0b7MGP9mIkQVmIEZcxgWCZ/2edmLB7FUgpd03BoDhy6
+      E6/Li8/jp7yogqCvjqC/jsZAE9UlQTxOz6J6/XpIAMSmoJSFshJEjRSGZWIpC13TcegOXLoL
+      t9ODrmX+rb0EQGTc+Y/fZy6uc+L0CxQ4M3fTDg4N0VBfz/TMNKX+0g2dIzIXpqCk+Mt3RtIG
+      EBkXxsXhJg/nrlwnOTlM666nGezpxOELUupMYHjLOLR3x7rP293xMbOpFxkf6qG2zMd0ysPk
+      QBfxkla+efoZ+m7fxHAVMT7cS1VDMz9761/5pW9+h5mRfgJ1bRAO8emFHr793W+zsAeN9ASL
+      jBsdvMeNCQe++DTHTh1n+FYHLl8bWjJMOKE4uGf9Nz9AoL6NmeE7mGaE4XETc26CQH0zzx58
+      GlDcujNEbXkxM+EYlzu62HdwP2WuCNduDXH79m1CkzM8/VTLonNKAETGHXvhJU4cPcSeA7u5
+      fO4Se549TbE+QqCmgdaW5lWHQqzG7/Ozq7WepF6KR00zlVA0VlZw/fp1AJpbW1BmCqWcVJQH
+      KHA4GI3oVJUVUd9QjxWP0Dc6seimlzaAsDV5Aghbk0awyJpzH75L2HRyYNd2Prl0g9ptrTy7
+      f2P1/9VYqTgfffQR3rJa6kp0untHOPXiabzOteta8gQQWVNY5MWIRbjR0ceLr30DFV55HsDj
+      SMXDzEVTTI5NMDQyw7EDzdy+m94y6hIAkTUlJWX4i1wUlji5dO4isTRXfFivZGyO0uomXFac
+      ZDJJJBzG4V57hTmQRrDIong0zGw0SWV5gMmJMXyBClxZ2JPAMlN0Xb6At3wbtX4H3fdHefbI
+      ARxpvG2SAAhbk0awyBgzGeWzCxfxVText72JsaFePr8zwNGjh7hy/iL+YCPu5AQFVS24rDi1
+      dXXLjtFPi7J4EBolGKxBQ/FwsBetoJwCYkwndGrLCghNxakpL8LUPXhX2B5W2gAiczQn+w8c
+      ZHRgAICb9+5zeNc2urr7aW1tJvSwl9mIyf2u81y4eInx6aWL46Zr+N5NfvreOQBmR/u5eO0+
+      qVSSy51dDN64wHuffc79W91cuXyZ2UhsxfNIAETGaFaS8xeucOTYUQB2NG/n/KVO0BxYyiJp
+      aJSWuIi5fASrA9y/dWND17FSUd5+9ywzI/2MzyWYGX+Ax1fOtevXKXQ7GBsP4S4sYnxinMGx
+      Ka52XFnxXFIFEhkTmZkikUjQc/s+DdUBlGXiLqniQHsN5y9coTZYR3NLDb6gRujeVSqbN9Yn
+      oLsK+b3vf5+uzs/xpsI4a3dg3jtHaU0jPmeMudRTnDyyn5tFTnQzykh45YqWNIKFrUkVSNia
+      BEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA
+      2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNia
+      BEDYmgRA2Np/A6yYC1SH9utBAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
